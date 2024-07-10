@@ -111,6 +111,10 @@ nav a, nav span {
 
 /* || main layout */
 
+main {
+  display: flex;
+} 
+
 article, section {
   flex: 4;
 }
@@ -143,11 +147,11 @@ main {
 }
 
 .flex-container {
-  background-color: rgba(0, 255, 0, 0.5);
+  background-color: rgba(0, 255, 0, 0.5);  padding: 1%;
   padding: 1%;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  flex-direction: row;
 }
 
 /* Media Query for smaller screens */
